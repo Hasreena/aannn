@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To My Nousheen ❤️</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+ min-height:100vh;
+ background:linear-gradient(135deg,#42152d,#84334f,#d987a4);
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ padding:18px;
+ font-family:'Poppins',sans-serif;
+ color:#704052;
+ overflow-x:hidden;
+}
+
+.heart{
+ position:fixed;
+ top:-30px;
+ color:#ffd3df;
+ animation:fall linear infinite;
+ pointer-events:none;
+ z-index:0;
+}
+
+@keyframes fall{
+ to{transform:translateY(110vh) rotate(360deg);opacity:0}
+}
+
+.container{
+ width:100%;
+ max-width:680px;
+ position:relative;
+ z-index:2;
+}
+
+.book{
+ background:#fff9f4;
+ border:5px double #dba4b4;
+ border-radius:12px 30px 30px 12px;
+ padding:30px 25px;
+ min-height:540px;
+ box-shadow:0 25px 70px #20081780;
+ text-align:center;
+}
+
+.cover{
+ min-height:470px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+}
+
+.tag{
+ font-size:11px;
+ letter-spacing:4px;
+ color:#b46a82;
+ text-transform:uppercase;
+}
+
+.script{
+ font-family:'Great Vibes',cursive;
+ font-size:clamp(50px,10vw,76px);
+ color:#a12f59;
+ margin:20px 0;
+ line-height:1.2;
+}
+
+.names{
+ font-family:'Playfair Display',serif;
+ font-size:26px;
+ color:#a33b62;
+ margin:15px;
+}
+
+.subtitle{
+ font-family:'Playfair Display',serif;
+ font-style:italic;
+ font-size:17px;
+ line-height:1.9;
+ color:#956477;
+ margin:15px auto;
+ max-width:480px;
+}
+
+button{
+ border:0;
+ border-radius:30px;
+ padding:13px 25px;
+ background:#a83f65;
+ color:white;
+ cursor:pointer;
+ margin:8px;
+ font-size:14px;
+ transition:.3s;
+}
+
+button:hover{
+ background:#762744;
+ transform:translateY(-3px);
+}
+
+button:disabled{
+ opacity:.4;
+ cursor:not-allowed;
+}
+
+.page{
+ display:none;
+ min-height:445px;
+ flex-direction:column;
+ justify-content:center;
+ animation:appear .6s ease;
+}
+
+.page.active{display:flex}
+
+@keyframes appear{
+ from{opacity:0;transform:translateY(20px)}
+ to{opacity:1;transform:translateY(0)}
+}
+
+.chapter{
+ font-size:11px;
+ letter-spacing:3px;
+ color:#b66d87;
+ margin-bottom:25px;
+}
+
+h2{
+ font-family:'Playfair Display',serif;
+ font-size:clamp(27px,6vw,38px);
+ color:#963555;
+ margin-bottom:23px;
+}
+
+.page p{
+ font-family:'Playfair Display',serif;
+ font-size:17px;
+ font-style:italic;
+ line-height:2;
+ color:#795164;
+ margin:10px auto;
+ max-width:520px;
+}
+
+.decor{
+ font-size:34px;
+ margin:15px;
+}
+
+.date{
+ font-family:'Great Vibes',cursive;
+ font-size:58px;
+ color:#b13f68;
+ margin:15px;
+}
+
+.navigation{
+ display:none;
+ align-items:center;
+ justify-content:space-between;
+ margin-top:25px;
+}
+
+#counter{
+ color:#ae7186;
+ font-size:12px;
+}
+
+.signature{
+ font-family:'Great Vibes',cursive;
+ font-size:39px;
+ color:#a12f59;
+ margin-top:25px;
+}
+
+.footer{
+ text-align:center;
+ color:#f7dce5;
+ font-size:11px;
+ letter-spacing:2px;
+ margin-top:20px;
+}
+
+@media(max-width:480px){
+ .book{padding:25px 16px}
+ .page{min-height:460px}
+ .page p{font-size:16px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="book">
+
+<!-- COVER -->
+
+<section class="cover" id="cover">
+
+<div class="tag">A letter from my heart</div>
+
+<div class="decor">🌹</div>
+
+<div class="script">To My<br>Nousheen</div>
+
+<div class="names">With Love, Asif ♡</div>
+
+<div class="subtitle">
+"Every love story has a beginning.
+And I'm so grateful that mine began with you."
+</div>
+
+<button onclick="openBook()">Open My Heart ❤️</button>
+
+</section>
+
+<section id="story" style="display:none">
+
+<!-- PAGE 1 -->
+
+<div class="page active">
+
+<div class="chapter">CHAPTER 01 · WHERE IT ALL BEGAN</div>
+
+<div class="decor">🌸</div>
+
+<h2>Do You Remember Those Six Days?</h2>
+
+<p>
+I still remember those six days during our
+10th SSC board exams. At that time, I never
+imagined that those little moments would
+become the beginning of such a beautiful
+story between us.
+</p>
+
+<p>
+Who knew that a simple meeting would
+eventually become one of the most special
+parts of my life?
+</p>
+
+<div class="decor">❤️</div>
+
+</div>
+
+<!-- PAGE 2 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 02 · OUR FIRST CONVERSATIONS</div>
+
+<div class="decor">💌</div>
+
+<h2>From Instagram To Endless Calls</h2>
+
+<p>
+After our exams, we slowly started
+communicating through Instagram chats
+and phone calls.
+</p>
+
+<p>
+I still love how our conversations slowly
+became a part of our everyday lives.
+One message, one call and one little
+conversation at a time, we became closer.
+</p>
+
+<p>
+Without even realising it, you became
+someone very special to me.
+</p>
+
+<div class="decor">💕</div>
+
+</div>
+
+<!-- PAGE 3 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 03 · MY UNFORGETTABLE DAY</div>
+
+<div class="decor">🌹</div>
+
+<h2>A Date I'll Always Remember</h2>
+
+<div class="date">07 / 07 / 2023</div>
+
+<p>
+How can I ever forget this date?
+Our unforgettable meeting at my hostel
+is a memory I'll always keep close
+to my heart.
+</p>
+
+<p>
+That day became one of the most special
+memories in our journey, and whenever
+I think about it, I feel grateful for
+having you in my life.
+</p>
+
+<div class="decor">❤️</div>
+
+</div>
+
+<!-- PAGE 4 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 04 · OUR BEAUTIFUL JOURNEY</div>
+
+<div class="decor">🦋</div>
+
+<h2>So Many Little Memories</h2>
+
+<p>
+Everything was going quite beautifully.
+We kept talking, sharing moments,
+caring for each other and creating
+memories along the way.
+</p>
+
+<p>
+I may not have perfect words for every
+feeling, but I want you to know that
+every little moment we've shared
+means something to me.
+</p>
+
+<div class="decor">🌷</div>
+
+</div>
+
+<!-- PAGE 5 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 05 · OUR DISTANCE</div>
+
+<div class="decor">🌍</div>
+
+<h2>Even Miles Cannot Change My Feelings</h2>
+
+<p>
+I know being in a long-distance relationship
+is not easy. There are miles between us,
+and sometimes being far away isn't simple.
+</p>
+
+<p>
+But honestly, I'm happy with us.
+Even when we're not beside each other,
+I still feel connected to you.
+</p>
+
+<p>
+We may be staying far apart, but my love
+and care for you remain endless.
+</p>
+
+<div class="decor">❤️</div>
+
+</div>
+
+<!-- PAGE 6 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 06 · WHAT YOU MEAN TO ME</div>
+
+<div class="decor">🤍</div>
+
+<h2>My Favourite Part Is Having You</h2>
+
+<p>
+For me, a relationship is not just about
+being together. It's about trusting each
+other, showing love and care in every
+possible way, and standing beside one
+another whatever may happen.
+</p>
+
+<p>
+I want us to keep understanding each other,
+supporting each other and choosing each
+other through every situation.
+</p>
+
+<p>
+Thank you for being a special part of my life.
+</p>
+
+<div class="decor">🫶</div>
+
+</div>
+
+<!-- PAGE 7 -->
+
+<div class="page">
+
+<div class="chapter">CHAPTER 07 · MY WISH FOR OUR FUTURE</div>
+
+<div class="decor">🌙</div>
+
+<h2>There's So Much More Ahead</h2>
+
+<p>
+When I think about our future, I wish
+for nothing more beautiful than a life
+filled with happiness, understanding,
+trust and endless love.
+</p>
+
+<p>
+I wish we get to create many more memories,
+celebrate more special days and continue
+growing together.
+</p>
+
+<p>
+Our story has already given me so many
+beautiful memories. I hope the best
+chapters are still waiting for us.
+</p>
+
+<div class="decor">✨</div>
+
+</div>
+
+<!-- PAGE 8 -->
+
+<div class="page">
+
+<div class="chapter">TODAY IS ALL ABOUT YOU</div>
+
+<div class="decor">🎂</div>
+
+<div class="script" style="font-size:55px">
+Happy Birthday!
+</div>
+
+<h2>My Babe, Nousheen ❤️</h2>
+
+<p>
+Happy Birthday, my love!
+I wish you a day filled with happiness,
+smiles and everything your heart desires.
+</p>
+
+<p>
+May you achieve everything you dream of.
+I wish we have a great future together,
+filled with all our love.
+</p>
+
+<p>
+No matter the distance, I want you to
+always know how special you are to me.
+</p>
+
+<div class="signature">
+With all my love,<br>
+Asif ❤️
+</div>
+
+</div>
+
+<!-- PAGE 9 -->
+
+<div class="page">
+
+<div class="chapter">ONE LAST THING, MY LOVE</div>
+
+<div class="decor">💝</div>
+
+<div class="script" style="font-size:55px">
+Thank You...
+</div>
+
+<h2>For Being My Beautiful Story</h2>
+
+<p>
+Thank you for every conversation,
+every memory, every smile and every
+little moment that has made this
+journey special.
+</p>
+
+<p>
+If I could go back to those six days
+during our 10th exams, I would still
+be happy to know that they led me
+to you.
+</p>
+
+<p>
+Happy Birthday once again, Nousheen.
+Here's to our memories and all the
+beautiful moments yet to come.
+</p>
+
+<div class="decor">❤️🌹❤️</div>
+
+<h2>Yours, Asif.</h2>
+
+</div>
+
+<!-- NAVIGATION -->
+
+<div class="navigation" id="navigation">
+
+<button id="back" onclick="movePage(-1)">← Back</button>
+
+<span id="counter">1 / 9</span>
+
+<button id="next" onclick="movePage(1)">Next →</button>
+
+</div>
+
+</section>
+</div>
+
+<div class="footer">
+MADE WITH LOVE · ASIF TO NOUSHEEN
+</div>
+
+</div>
+
+<script>
+
+let currentPage = 0;
+
+const allPages = document.querySelectorAll(".page");
+
+function openBook(){
+
+document.getElementById("cover").style.display="none";
+
+document.getElementById("story").style.display="block";
+
+document.getElementById("navigation").style.display="flex";
+
+currentPage=0;
+
+updatePage();
+
+}
+
+function updatePage(){
+
+allPages.forEach((page,index)=>{
+
+page.classList.toggle("active",index===currentPage);
+
+});
+
+document.getElementById("back").disabled=currentPage===0;
+
+document.getElementById("next").textContent=
+currentPage===allPages.length-1
+?"Read Again ❤️":"Next →";
+
+document.getElementById("counter").textContent=
+(currentPage+1)+" / "+allPages.length;
+
+}
+
+function movePage(direction){
+
+if(currentPage===allPages.length-1 && direction===1){
+
+currentPage=0;
+
+}else{
+
+currentPage=Math.max(0,Math.min(
+allPages.length-1,currentPage+direction
+));
+
+}
+
+updatePage();
+
+window.scrollTo({top:0,behavior:"smooth"});
+
+}
+
+// Floating hearts
+
+for(let i=0;i<25;i++){
+
+let h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML=["♥","♡","✦"][i%3];
+
+h.style.left=Math.random()*100+"vw";
+
+h.style.animationDuration=(6+Math.random()*8)+"s";
+
+h.style.animationDelay=(-Math.random()*12)+"s";
+
+h.style.fontSize=(12+Math.random()*17)+"px";
+
+document.body.appendChild(h);
+
+}
+
+</script>
+
+</body>
+</html>
